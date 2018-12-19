@@ -5,11 +5,11 @@
 
 int main() {
 	int i;
-	double y=20;
+	long double y=20;
 	for (i=1626;i<=2018;i++);
 	{
 	y=y+y*0.04;
 	}
-	printf("price = %0.2f $",y);
+	printf("price = %lu $",y);
 	return 0;
 }
